@@ -24,7 +24,7 @@ import com.generation.quitanda.repository.ProdutoRepository;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping
+@RequestMapping("/produtos")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 public class ProdutoController {
 
